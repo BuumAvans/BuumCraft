@@ -1,0 +1,25 @@
+{
+	title: "Get some good old wood",
+	icon: "minecraft:log",
+	x: -3.5d,
+	y: -3.0d,
+	shape: "square",
+	description: "Chop some wood logs with your axe",
+	dependencies: [
+		"263594ce"
+	],
+	tasks: [{
+		uid: "275cd8de",
+		type: "item",
+		icon: "minecraft:log",
+		items: [{
+			item: "minecraft:log"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "a4c4a349",
+		type: "item",
+		item: "minecraft:sapling"
+	}]
+}

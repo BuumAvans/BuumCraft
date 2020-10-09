@@ -1,0 +1,45 @@
+{
+	title: "Welcome to the world of the living!",
+	icon: "minecraft:skull 1 3",
+	x: -6.0d,
+	y: -3.0d,
+	shape: "heart",
+	description: "Well atleast you're alive for now...",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "69799412",
+		type: "dimension",
+		dim: 0
+	},
+	{
+		uid: "c8d65270",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "6b460b3f",
+		type: "item",
+		item: "minecraft:wooden_sword"
+	},
+	{
+		uid: "dcd1e41d",
+		type: "item",
+		item: "minecraft:wooden_shovel"
+	},
+	{
+		uid: "81fddb6b",
+		type: "item",
+		item: "minecraft:wooden_axe"
+	},
+	{
+		uid: "0049a841",
+		type: "item",
+		item: "minecraft:wooden_pickaxe"
+	},
+	{
+		uid: "836a72e5",
+		type: "item",
+		item: "minecraft:leather_chestplate"
+	}]
+}
