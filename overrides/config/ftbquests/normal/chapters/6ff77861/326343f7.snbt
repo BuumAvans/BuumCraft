@@ -1,0 +1,35 @@
+{
+	title: "Smelt that shiny ore!",
+	icon: "minecraft:furnace",
+	x: -2.0d,
+	y: -5.0d,
+	shape: "octagon",
+	description: "Craft and furnace and gather some fuel",
+	dependencies: [
+		"f816f425"
+	],
+	tasks: [{
+		uid: "16273300",
+		type: "item",
+		icon: "minecraft:furnace",
+		items: [{
+			item: "minecraft:furnace"
+		}]
+	},
+	{
+		uid: "603fa76c",
+		type: "item",
+		icon: "minecraft:coal",
+		items: [{
+			item: "minecraft:coal"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "a14117cd",
+		type: "item",
+		icon: "tconstruct:edible",
+		item: "tconstruct:edible",
+		count: 4
+	}]
+}

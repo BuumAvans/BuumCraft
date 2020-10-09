@@ -3,7 +3,7 @@
 	icon: "minecraft:log",
 	x: -3.5d,
 	y: -3.0d,
-	shape: "square",
+	shape: "hexagon",
 	description: "Chop some wood logs with your axe",
 	dependencies: [
 		"263594ce"
