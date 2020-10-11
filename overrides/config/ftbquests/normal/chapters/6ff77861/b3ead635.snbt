@@ -1,0 +1,22 @@
+{
+	title: "Upgrade you're backpack to stone tier",
+	icon: "improvedbackpacks:upgrade 1 1",
+	x: -1.0d,
+	y: 3.5d,
+	shape: "octagon",
+	dependencies: [
+		"35a68610"
+	],
+	tasks: [{
+		uid: "856fd95a",
+		type: "item",
+		items: [{
+			item: "improvedbackpacks:upgrade 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "1d165d72",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

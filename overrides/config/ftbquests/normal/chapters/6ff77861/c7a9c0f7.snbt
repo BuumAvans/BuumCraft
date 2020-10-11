@@ -1,0 +1,19 @@
+{
+	title: "Create yourself a home to live in",
+	icon: "minecraft:bed",
+	x: 0.0d,
+	y: -1.0d,
+	shape: "octagon",
+	description: "Obtain a bed",
+	dependencies: [
+		"f2e7e877"
+	],
+	tasks: [{
+		uid: "52d837d9",
+		type: "item",
+		items: [{
+			item: "minecraft:bed"
+		}],
+		ignore_nbt: 1b
+	}]
+}

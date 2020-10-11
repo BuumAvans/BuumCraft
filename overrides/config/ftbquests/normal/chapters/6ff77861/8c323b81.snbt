@@ -1,0 +1,23 @@
+{
+	title: "The final backpack upgrade",
+	icon: "improvedbackpacks:upgrade 1 4",
+	x: 0.0d,
+	y: 2.0d,
+	shape: "octagon",
+	dependencies: [
+		"997804b4"
+	],
+	tasks: [{
+		uid: "cb73fc04",
+		type: "item",
+		items: [{
+			item: "improvedbackpacks:upgrade 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "22bc9f00",
+		type: "item",
+		title: "Use this for the ender backpack",
+		item: "minecraft:ender_chest"
+	}]
+}

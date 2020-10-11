@@ -1,0 +1,22 @@
+{
+	title: "Upgrade you're backpack to gold tier",
+	icon: "improvedbackpacks:upgrade 1 3",
+	x: 2.0d,
+	y: 2.0d,
+	shape: "octagon",
+	dependencies: [
+		"6d5ec97e"
+	],
+	tasks: [{
+		uid: "772c397d",
+		type: "item",
+		items: [{
+			item: "improvedbackpacks:upgrade 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "629de87f",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

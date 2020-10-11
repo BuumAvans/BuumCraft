@@ -1,0 +1,20 @@
+{
+	title: "Create you're own portable storage",
+	icon: "improvedbackpacks:backpack",
+	x: -1.5d,
+	y: 0.5d,
+	shape: "octagon",
+	description: "Create a backpack",
+	dependencies: [
+		"c7a9c0f7"
+	],
+	tasks: [{
+		uid: "a17bd5f3",
+		type: "item",
+		items: [{
+			item: "improvedbackpacks:backpack"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	title: "Upgrade you're backpack to wood tier",
+	icon: "improvedbackpacks:upgrade",
+	x: -2.0d,
+	y: 2.0d,
+	shape: "octagon",
+	dependencies: [
+		"829d4d5e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "857b76af",
+		type: "item",
+		items: [{
+			item: "improvedbackpacks:upgrade"
+		}]
+	}],
+	rewards: [{
+		uid: "f7855bb3",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}
